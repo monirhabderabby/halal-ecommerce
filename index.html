@@ -18,7 +18,7 @@
         <section class="dshadow nav">
             <section class="container d-flex justify-content-between align-items-center ">
                 <div class="d-flex align-items-center">
-                    <h1 class="ms-3 text-decoration-none">Halal Shop</h1>
+                    <h1 class="ms-3 text-decoration-none" onclick="switchTab('shop')">Halal Shop</h1>
                     <a  class="ms-3 text-decoration-none"href="">Bag</a>
                     <a  class="ms-3 text-decoration-none"href="">Shoe</a>
                     <a  class="ms-3 text-decoration-none"href="">Watch</a>
@@ -29,7 +29,7 @@
                     <i class="fa-solid fa-magnifying-glass s-icon"></i>
                 </div>
                 <div class="bag-icon-c">
-                    <i class="fa-solid fa-bag-shopping icon"></i>
+                    <i class="fa-solid fa-bag-shopping icon" onclick="switchTab('cart')"></i>
                 </div>
             </section>
             <!-- Banner -->
@@ -77,11 +77,24 @@
 
         <!-- Product Details -->
         <section class="container">
-            <div class="row" id="display-products">
+            <div class="row gx-3 gy-5" id="display-products">
                 <h1 class="text-center">Products</h1>
                 
             </div>
             
+        </section>
+        <!-- cart section -->
+        <section id="cart" class="container mt-5">
+            <h1 class="text-center">Processing your shopping cart</h1>
+            <table class="w-100" id="table">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                
+            </table>
+
         </section>
     </main>
     

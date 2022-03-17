@@ -138,3 +138,35 @@ header{
 }
 
 /* Product card END */
+
+/* Shopping Cart */
+#cart{
+    height: 100vh;
+}
+.cart-info{
+    display: flex;
+}
+.cart-info img{
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+}
+th{
+    color: #fff;
+    text-align: left;
+    background-color: orangered;
+    padding: 5px;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
