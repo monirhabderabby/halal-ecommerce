@@ -18,8 +18,10 @@ const sendId = (id) => {
 const switchTab = (id) => {
   if (id == "cart") {
     document.getElementById("display-products").style.display = "none";
+    document.getElementById('cart').style.display = 'block'
   } else if (id == "shop") {
     document.getElementById("display-products").style.display = "flex";
+    document.getElementById('cart').style.display = 'none'
   }
 };
 
